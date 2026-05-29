@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ApexPlanet Task 3</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Advanced Styling and JavaScript</h1>
+    <p>Responsive design, image carousel, and API integration</p>
+  </header>
+
+  <section class="container">
+    <div class="card">
+      <h2>Image Carousel</h2>
+      <img id="slider" src="https://picsum.photos/600/300?random=1" alt="carousel image">
+      <div class="buttons">
+        <button onclick="prevImage()">Previous</button>
+        <button onclick="nextImage()">Next</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Random Joke API</h2>
+      <p id="joke">Loading...</p>
+      <button onclick="getJoke()">Get New Joke</button>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
